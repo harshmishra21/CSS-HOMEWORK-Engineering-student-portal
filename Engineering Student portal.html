@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engineering Life Portal</title>
+  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Minecraft', sans-serif;
+      background-color: #bf76d7;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #c1d752;
+      color: rgb(168, 92, 172);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      background-color: #10b981;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      border-bottom: 3px solid #0e9f6e;
+    }
+
+    nav a {
+      color: rgb(203, 219, 88);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #477e86;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card h2 {
+      color: #5e42f5;
+      border-bottom: 2px dashed #5e42f5;
+      padding-bottom: 5px;
+    }
+
+    .highlight {
+      background-color: #f59e0b;
+      padding: 15px;
+      border-radius: 8px;
+      color: white;
+      margin-top: 10px;
+      border: 2px solid #d97706;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f3f3f3;
+      color: #777;
+      font-size: 0.9em;
+      border-top: 2px solid #ddd;
+    }
+
+    /* Extra Elements */
+    button {
+      background-color: #5e42f5;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Minecraft', sans-serif;
+    }
+
+    button:hover {
+      background-color: #4338ca;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #10b981;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      margin-right: 5px;
+    }
+
+    .alert {
+      background-color: #ef4444;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Engineering Life Portal</h1>
+    <p>Your digital corner for tech fests, hackathons, memes, and semester struggles!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Tech News</a>
+    <a href="#">Fests</a>
+    <a href="#">Coding Clubs</a>
+    <a href="#">Support</a>
+  </nav>
+
+  <div class="container">
+    <div class="alert">🔥 Final Year Project submissions due May 10th!</div>
+
+    <div class="card">
+      <h2>Hey Future Engineers!</h2>
+      <p>Stay updated with the latest coding competitions, college events, and yes—semester exam tips. Built for engineers, by engineers.</p>
+      <span class="tag">#coding</span><span class="tag">#semester</span><span class="tag">#engineering</span>
+    </div>
+
+    <div class="card">
+      <h2>Latest Engineer Buzz</h2>
+      <div class="highlight">
+        <strong>Code-A-Thon 2025 Kicked Off!</strong><br />
+        <em>April 23, 2025 - by Tech Society</em>
+        <p>Join the all-night coding challenge. Win prizes, earn reputation, and enjoy free Red Bull. Starts May 3rd in the IT Block!</p>
+        <button>Register Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Engineering Life Portal
+  </footer>
+</body>
+</html>
